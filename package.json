@@ -1,0 +1,18 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "build-user-onboarding": "cd nova-components/UserOnboarding && npm run dev",
+        "build-user-onboarding-prod": "cd nova-components/UserOnboarding && npm run prod",
+        "build-calendar-full": "cd nova-components/CalendarFull && npm run dev",
+        "build-calendar-full-prod": "cd nova-components/CalendarFull && npm run prod",
+        "build-user-inspector": "cd nova-components/UserInspector && npm run dev",
+        "build-user-inspector-prod": "cd nova-components/UserInspector && npm run prod"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "vite": "^4.0.0"
+    }
+}
